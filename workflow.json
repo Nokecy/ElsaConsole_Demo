@@ -1,0 +1,15 @@
+{
+  "id": "HelloWorld-v1",
+  "definitionId": "HelloWorld",
+  "name": "Hello World",
+  "root": {
+    "id": "Flowchart1",
+    "type": "Elsa.Flowchart",
+    "activities": [
+      {
+        "id": "CustomeCompositeActivity1",
+        "type": "ElsaConsole.Activitys.CustomeCompositeActivity"
+      }
+    ]
+  }
+}

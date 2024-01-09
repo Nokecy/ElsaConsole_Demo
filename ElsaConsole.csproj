@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elsa" Version="3.0.2" />
+
+	  <PackageReference Include="Elsa.Alterations" Version="3.0.2" />
+	  <PackageReference Include="Elsa.Hangfire" Version="3.0.2" />
+
+	  <PackageReference Include="Elsa.EntityFrameworkCore.Sqlite" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="workflow.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
